@@ -45,7 +45,7 @@ public class MainActivity extends AppCompatActivity {
         DrawerLayout drawer = binding.drawerLayout;
         NavigationView navigationView = binding.navView;
         View headerView =navigationView.getHeaderView(0);
-        TextView navUsername= (TextView) headerView.findViewById(R.id.tvusername);
+         TextView navUsername= (TextView) headerView.findViewById(R.id.tvusername);
 
         navUsername.setText(""+userSuccesslogin);
         Toast.makeText(getApplicationContext(), "welcome"+userSuccesslogin,Toast.LENGTH_SHORT).show();
